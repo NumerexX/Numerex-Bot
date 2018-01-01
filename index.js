@@ -9,9 +9,9 @@ bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
 
-bot.on("Im ready, Numerex daddy < 3", function() 
+bot.on('Im ready, Numerex daddy < 3', function() 
 {
-    console.log("Im ready nigga.");
+    console.log('Im ready nigga.');
 })
 
 bot.on('message', (message) => {
