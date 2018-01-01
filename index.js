@@ -38,7 +38,6 @@ bot.on('message', (message) => {
             message.channel.sendMessage("Invalid command you idiot! >:D");
     }
 
-});
+})
 
-bot.login('MzUxMDUyNTcyMTUwNDY0NTEz.DSttlw.bcmp55LZVfBpfJ7hCHzwp34EdrY');
 bot.login(process.env.BOT_TOKEN);
